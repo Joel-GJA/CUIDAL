@@ -1,0 +1,70 @@
+# ==============================================================
+# Python Bytecode & Interpreter Caches
+# ==============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==============================================================
+# Virtual Environments & Packaging
+# ==============================================================
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# ==============================================================
+# Generated YOLO Patch Datasets (Export Directory)
+# ==============================================================
+yolo_patch_dataset/
+yolo_dataset/
+images/
+labels/
+data.yaml
+train_yolo.py
+
+# ==============================================================
+# Local Raw Target Images & Manifests (Keeps repo code-only)
+# ==============================================================
+patch_labeller_manifest.json
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+# Allow documentation images / screenshots in assets/
+!docs/assets/*.png
+!docs/assets/*.jpg
+!assets/*.png
+!assets/*.jpg
+
+# ==============================================================
+# YOLO Training Runs & Model Weights
+# ==============================================================
+runs/
+pilss_yolo_runs/
+*.pt
+*.onnx
+*.engine
+
+# ==============================================================
+# App Boot Tags & Session Caches
+# ==============================================================
+*.tag
+*.log
+*.tmp
+pilss_labeller_boot.tag
+pilss_labeller_last_session.json
+
+# ==============================================================
+# OS & IDE Configuration Files
+# ==============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
